@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), eslint],
   base: "/",
   build: {
-    outDir: "dist", // Adjust the output directory as needed
-    assetsDir: "assets", // Adjust the assets directory as needed
+    outDir: "dist",
+    assetsDir: "assets",
   },
 });
