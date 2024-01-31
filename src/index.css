@@ -51,6 +51,7 @@ p {
     url("img/quizBG.webp");
   background-position: center;
   background-size: cover;
+  overflow: hidden;
 }
 
 .btn {

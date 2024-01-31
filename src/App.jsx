@@ -9,6 +9,7 @@ import FinishedScreen from "./Components/FinishedScreen";
 import Info from "./Pages/Info";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PageNotFound from "./Pages/PageNotFound";
+import Footer from "./Components/Footer";
 
 // const BASE_URL = "http://localhost:7000/questions";
 const BASE_URL =
@@ -85,7 +86,6 @@ function App() {
       try {
         const res = await fetch(`${BASE_URL}`);
         const data = await res.json();
-        console.log(data);
         dispatch({ type: "dataReceived", payload: data.questions });
       } catch (err) {
         dispatch({ type: "dataFailed" });
@@ -141,6 +141,7 @@ function App() {
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }
