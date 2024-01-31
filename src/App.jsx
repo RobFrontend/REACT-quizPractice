@@ -10,7 +10,9 @@ import Info from "./Pages/Info";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PageNotFound from "./Pages/PageNotFound";
 
-const BASE_URL = "http://localhost:7000/questions";
+// const BASE_URL = "http://localhost:7000/questions";
+const BASE_URL =
+  "https://robfrontend.github.io/host_api_nba_quiz/questions.json";
 
 const initialState = {
   questions: [],
@@ -84,7 +86,7 @@ function App() {
         const res = await fetch(`${BASE_URL}`);
         const data = await res.json();
         console.log(data);
-        dispatch({ type: "dataReceived", payload: data });
+        dispatch({ type: "dataReceived", payload: data.questions });
       } catch (err) {
         dispatch({ type: "dataFailed" });
       }
