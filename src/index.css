@@ -48,7 +48,7 @@ p {
       rgb(0, 0, 0, 0.1),
       rgb(0, 0, 0, 0.3)
     ),
-    url("/assets/quizBG.webp");
+    url("/quizBG.webp");
   background-position: center;
   background-size: cover;
   overflow: hidden;
