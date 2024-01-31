@@ -1,0 +1,28 @@
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 6.4rem 3.2rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom right,
+    rgba(160, 255, 255, 0.1),
+    rgba(255, 255, 229, 0.2)
+  );
+  background-size: 200%;
+  background-position: center;
+  backdrop-filter: blur(1rem);
+  margin-top: 6.4rem;
+  border-radius: 50px;
+}
+
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.infoBox h1 {
+  margin-bottom: 1.8rem;
+}

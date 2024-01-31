@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "question": "Which basketball player has won the most rings?",
+      "options": [
+        "Michael Jordan",
+        "Stephen Curry",
+        "Bill Russell",
+        "Kareem Abdul-Jabbar"
+      ],
+      "correctOption": 2,
+      "points": 5
+    },
+    {
+      "question": "Which basketball player has the most all-time career nba points scored?",
+      "options": [
+        "Wilt Chamberlain",
+        "Karl Malone",
+        "Kareem Abdul-Jabbar",
+        "LeBron James"
+      ],
+      "correctOption": 3,
+      "points": 5
+    },
+    {
+      "question": "Which basketball player earned the title of youngest mvp in nba history?",
+      "options": [
+        "Stephen Curry",
+        "Derrick Rose",
+        "Michael Jordan",
+        "LeBron James"
+      ],
+      "correctOption": 1,
+      "points": 5
+    },
+    {
+      "question": "Who is the leader in percentage effectiveness of 3-point shots?",
+      "options": ["Steve Kerr", "Stephen Curry", "Ray Allen", "Reggie Miller"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the best statistic for winning/losing games in the single regular season?",
+      "options": ["72/10", "73/9", "80/2", "70/12"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Who is the most famous #1 draft pick and has won at least 1 mvp title?",
+      "options": [
+        "Michael Jordan",
+        "Kobe Bryant",
+        "Allen Iverson",
+        "Zion Williamson"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which team is Blake Griffin playing for in 2023?",
+      "options": [
+        "Boston Celtics",
+        "New York Nicks",
+        "Brooklyn Nets",
+        "LA Clippers"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "Which basketball player has never won a dunk contest?",
+      "options": [
+        "LeBron James",
+        "Michael Jordan",
+        "Zach Lavine",
+        "Dwight Howard"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "Which basketball player made more than 30 rebounds in one game?",
+      "options": [
+        "Dwight Howard",
+        "Draymond Green",
+        "Dennis Rodman",
+        "Shaquille O'Neal"
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "Which NBA team retired Michael Jordan's jersey number despite the fact that he never played on it?",
+      "options": [
+        "Miami Heat",
+        "Charlotte Hornets",
+        "Washington Wizards",
+        "None"
+      ],
+      "correctOption": 0,
+      "points": 30
+    }
+  ]
+}

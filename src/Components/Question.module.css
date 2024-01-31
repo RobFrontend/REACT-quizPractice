@@ -1,0 +1,32 @@
+.progress {
+  display: grid;
+  grid-template-columns: repeat(2, 50fr);
+  align-items: center;
+  margin-bottom: 2.4rem;
+  opacity: 0.6;
+  gap: 0.6rem;
+}
+
+.progress progress {
+  grid-column: 1/-1;
+  width: 100%;
+  -webkit-appearance: none;
+}
+
+::-webkit-progress-bar {
+  border-radius: 100px;
+  background-color: #454545;
+}
+
+::-webkit-progress-value {
+  border-radius: 100px;
+  background: linear-gradient(
+    to top left,
+    rgba(160, 255, 255, 0.6),
+    rgba(255, 255, 229, 0.8)
+  );
+}
+
+.progress p {
+  justify-self: end;
+}
