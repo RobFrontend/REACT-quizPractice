@@ -88,6 +88,14 @@ p {
   transform: translateX(1.2rem);
 }
 
+.restart {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  gap: 2.4rem;
+}
+
 .gradientBG {
   background: linear-gradient(
     to bottom right,

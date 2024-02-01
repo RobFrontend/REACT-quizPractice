@@ -1,6 +1,6 @@
 function FinishedScreen({ dispatch, points, highscore }) {
   return (
-    <div>
+    <div className="restart">
       <h2>
         Finished with {points} (highscore: {highscore})
       </h2>
