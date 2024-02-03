@@ -1,4 +1,3 @@
-import { useEffect, useReducer } from "react";
 import HomePage from "./Components/HomePage";
 import Loader from "./Components/Loader";
 import Error from "./Components/Error";

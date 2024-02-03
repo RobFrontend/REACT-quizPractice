@@ -10,7 +10,7 @@ function Info() {
           <h1>About project</h1>
           <p>
             The project's objective is to reinforce skills in utilizing the
-            useReducer hook and React Router.
+            useReducer hook and React Router with ContextProvider.
           </p>
           <p>
             Developed within the Vite framework, the application interfaces with
