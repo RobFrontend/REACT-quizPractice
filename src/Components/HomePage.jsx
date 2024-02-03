@@ -1,5 +1,7 @@
+import { useQuiz } from "../context/QuizContext";
 import styles from "./HomePage.module.css";
-function HomePage({ numQuestions, dispatch }) {
+function HomePage() {
+  const { numQuestions, dispatch } = useQuiz();
   return (
     <div className={styles.home}>
       <h1>The NBA Quiz!</h1>

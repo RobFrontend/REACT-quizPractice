@@ -1,16 +1,12 @@
+import { useQuiz } from "../context/QuizContext";
 import Options from "./Options";
 import styles from "./Question.module.css";
 
-function Question({
-  questions,
-  question,
-  answer,
-  index,
-  points,
-  maxPoints,
-  numQuestions,
-  dispatch,
-}) {
+function Question() {
+  const { questions, numQuestions, index, answer, points, maxPoints } =
+    useQuiz();
+
+  const question = questions.at(index);
   return (
     <>
       <div className={styles.progress}>
@@ -24,7 +20,7 @@ function Question({
         </p>
       </div>
       <h2>{question.question}</h2>
-      <Options question={question} answer={answer} dispatch={dispatch} />
+      <Options question={question} />
     </>
   );
 }

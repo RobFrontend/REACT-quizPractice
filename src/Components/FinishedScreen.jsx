@@ -1,4 +1,7 @@
-function FinishedScreen({ dispatch, points, highscore }) {
+import { useQuiz } from "../context/QuizContext";
+
+function FinishedScreen() {
+  const { dispatch, points, highscore } = useQuiz();
   return (
     <div className="restart">
       <h2>
